@@ -81,13 +81,16 @@ def get_weekly_frame(start_date, end_date, keyword, outputfile):
         file.close()
 
 if __name__ == '__main__':
-
     start_date = sys.argv[1]
     end_date = sys.argv[2]
     outputfile = sys.argv[3]
     geo = ''
     category = 22
     keywords = '+'.join(sys.argv[4:])
+    print ('[g00gle tr3nd scrap3r]')
+    print '|-> save file: ', outputfile
+    print '|-> keywords : ', ' '.join(sys.argv[4:])
+    print '|-> timerange: ', start_date, end_date
 
     daily_frames = get_daily_frames(start_date, end_date, keywords, outputfile)
     # weekly_frame = get_weekly_frame(start_date, end_date, keywords, outputfile)

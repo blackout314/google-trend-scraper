@@ -1,4 +1,4 @@
-# google trend scraper
+# g00gle tr3nd scrap3r
 
 ```
                    ___   ___        _      _       _____           _                         _____      
